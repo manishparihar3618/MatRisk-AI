@@ -8,3 +8,4 @@ print("\nFirst 5 rows of the dataset:", df1.head())
 print("\nData types of each column:\n", df1.dtypes)
 print("\nMissing values in each column:\n", df1.isnull().sum())
 print("\nStatistical summary of the dataset:\n", df1.describe())
+
