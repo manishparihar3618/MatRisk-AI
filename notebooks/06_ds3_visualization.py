@@ -31,14 +31,14 @@ plt.savefig("material_distribution.png")
 plt.close()
 
 
-# # Structural Deficiency Distribution
-# plt.figure(figsize=(6,4))
-# df["structurally_deficient"].value_counts().plot(kind="bar")
-# plt.xlabel("Structural Deficiency Status")
-# plt.ylabel("Number of Bridges")
-# plt.title("Structurally Deficient Bridges")
-# plt.savefig("structural_deficiency_distribution.png")
-# plt.close()
+# Structural Deficiency Distribution
+plt.figure(figsize=(6,4))
+df["structurally_deficient"].value_counts().plot(kind="bar")
+plt.xlabel("Structural Deficiency Status")
+plt.ylabel("Number of Bridges")
+plt.title("Structurally Deficient Bridges")
+plt.savefig("structural_deficiency_distribution.png")
+plt.close()
 
 
-# print("Visualizations saved as PNG files in the current directory.")
+print("Visualizations saved as PNG files in the current directory.")
