@@ -1,18 +1,20 @@
 # Dataset Understanding
 
-## Material Dataset
+## DS1 Material Properties
+Purpose:
+Contains material properties used in bridge construction.
 
-Features :
+Important Features:
 - Material Name
-- Density 
-- Bulk Modulus 
+- Density
+- Bulk Modulus
 - Shear Modulus
 - Crystal Structure
 
-Purpose:
-Material Properties 
+Why Important:
+Strong and stable materials reduce bridge failure risk.
 
----
+Possible Contribution:
+Material Strength Score
 
-## Infrastructure 
 
