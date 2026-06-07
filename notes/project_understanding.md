@@ -131,3 +131,28 @@ Possible Contribution:
 - Failure Risk Score
 - Failure Pattern Risk
 - Severity Risk
+
+
+
+
+# How can all this Datasets Combined contribute in single bridge risk score ??
+##  Bullet Points
+- Material with low stability, durability, strength have more failure rate
+- Volatility in prices delay maintainence results in increase in failure rate 
+- Older bridges have higher risk 
+- high corrosion rate reduce bridge health
+- Supply chain disruptions affect repair schedules 
+- historical failures reveal common failure pattern 
+- poor condition rating indicates structural problems 
+- MQI affect durability
+- high traffic load accelarates bridge wear and tear
+- lower remaining thickness indicates fast corrosion
+- large repair cost means its critical already 
+- high fatigue cycles increase structural stress 
+- high loss ratio suggests severe impact 
+- If a material if difficult to replace with another material(like a speacila steel) then supply problem become more dangeuous 
+- High supply disruption (factory shutdown or transportation issue) affect project continuity
+- If warning time is less engineer get less time to repair 
+- Higher tensile strength can withstand greater load before failure
+- Higher carbon intensity may increase dependence on a few suppliers, increasing supply risk.
+- 
