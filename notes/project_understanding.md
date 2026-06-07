@@ -18,3 +18,17 @@ Possible Contribution:
 Material Strength Score
 
 
+## DS2 Commodity Prices
+Purpose:
+Tracks commodity prices over time.
+
+Important Features:
+- Commodity Name
+- Price
+- Date
+
+Why Important:
+High price volatility can increase project risk.
+
+Possible Contribution:
+Market Risk Score
