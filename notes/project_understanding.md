@@ -32,3 +32,20 @@ High price volatility can increase project risk.
 
 Possible Contribution:
 Market Risk Score
+
+
+## DS3 Infrastructure Bridges
+Purpose:
+Contains bridge and infrastructure information.
+
+Important Features:
+- Bridge Age
+- Condition Rating
+- Material
+- Structure Type
+
+Why Important:
+Older bridges generally have higher failure probability.
+
+Possible Contribution:
+Infrastructure Risk Score
