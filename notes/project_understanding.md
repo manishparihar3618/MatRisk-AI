@@ -49,3 +49,52 @@ Older bridges generally have higher failure probability.
 
 Possible Contribution:
 Infrastructure Risk Score
+
+
+## DS4 Crossdomain Features 
+Purpose:
+Combines market and supply-chain information.
+
+Important Features:
+- MQI
+- Supply Disruption Probability
+- Carbon Intensity
+
+Why Important:
+Shows external risks affecting materials and projects.
+
+Possible Contribution:
+Supply Chain Risk Score
+
+
+## DS5 Element Prices 
+Purpose:
+Tracks prices of important engineering elements.
+
+Important Features:
+- Element
+- Price per Kg
+- Monthly Return
+
+Why Important:
+Material cost fluctuations affect project planning.
+
+Possible Contribution:
+Economic Risk Score
+
+
+## DS6 Historical Failures
+Purpose:
+Contains records of past infrastructure failures.
+
+Important Features:
+- Failure Mode
+- Severity
+- Corrosion Rate
+- Age at Failure
+
+Why Important:
+Past failures help predict future failures.
+
+Possible Contribution:
+Failure Risk Score
