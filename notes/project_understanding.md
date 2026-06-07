@@ -15,7 +15,9 @@ Why Important:
 Strong and stable materials reduce bridge failure risk.
 
 Possible Contribution:
-Material Strength Score
+- Material Strength Score*
+- Stability Score
+- Durablility Score
 
 
 ## DS2 Commodity Prices
@@ -24,14 +26,19 @@ Tracks commodity prices over time.
 
 Important Features:
 - Commodity Name
-- Price
+- Price (Open, High, Low, Close)
 - Date
+- Volume 
+- Volatility
 
 Why Important:
 High price volatility can increase project risk.
+Instability in Commodity Prices can increase Construction cost, maintanence cost and supply chain uncertaninty
 
 Possible Contribution:
-Market Risk Score
+- Market Risk Score*
+- Economic Risk 
+- Supply Chain Risk
 
 
 ## DS3 Infrastructure Bridges
@@ -42,29 +49,44 @@ Important Features:
 - Bridge Age
 - Condition Rating
 - Material
-- Structure Type
+- Structure defeciency
+- Traffic Load
+- Remaining Thickness
+- Corrosion Rate
+- Tensile Strength
+- Yield Strength
 
 Why Important:
 Older bridges generally have higher failure probability.
+Directly Measure the health and condition of a bridge 
 
 Possible Contribution:
 Infrastructure Risk Score
+Structural Risk
+Physical Risk
+Operational Risk
 
 
 ## DS4 Crossdomain Features 
 Purpose:
-Combines market and supply-chain information.
+Combines information from multiple domains such as material quality, supply chain, market conditions, and sustainability factors.
 
 Important Features:
-- MQI
+- MQI (Material Quality Index)
 - Supply Disruption Probability
+- Substitution Elasticity
+- Herfindahl Index
 - Carbon Intensity
+- MQI Trends
 
 Why Important:
 Shows external risks affecting materials and projects.
+Helps estimate risks that arise from material availability, supplier dependency, market conditions, and quality trends.
 
 Possible Contribution:
-Supply Chain Risk Score
+- Supply Chain Risk Score
+- Market Risk
+- Material Quality Risk
 
 
 ## DS5 Element Prices 
@@ -75,12 +97,16 @@ Important Features:
 - Element
 - Price per Kg
 - Monthly Return
+- Base Price
 
 Why Important:
 Material cost fluctuations affect project planning.
+Helps estimate economic and mainatainace risks caused by changing material prices.
 
-Possible Contribution:
-Economic Risk Score
+- Possible Contribution:
+- Economic Risk Score
+- Material Cost Risk
+- Maintanaince Risk
 
 
 ## DS6 Historical Failures
@@ -92,9 +118,16 @@ Important Features:
 - Severity
 - Corrosion Rate
 - Age at Failure
+- Warning lead time
+- Was predicted
+- Repair cost
+- Loss ratio
+
 
 Why Important:
 Past failures help predict future failures.
 
 Possible Contribution:
-Failure Risk Score
+- Failure Risk Score
+- Failure Pattern Risk
+- Severity Risk
