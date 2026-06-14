@@ -5,6 +5,7 @@ from sklearn.metrics import r2_score
 
 df = pd.read_csv("data/DS3_featured.csv")
 
+
 target = "condition_rating"
 
 X = df.drop(columns=[target])
