@@ -33,3 +33,13 @@ model.fit(X_train, y_train)
 
 preds = model.predict(X_test)
 print("R2 Score:", r2_score(y_test, preds))
+
+feature_importance = pd.DataFrame({
+    "Feature": X.columns,
+    "Importance": model.feature_importances_
+})
+
+print(feature_importance.sort_values(
+    by="Importance",
+    ascending=False
+).head(10))
