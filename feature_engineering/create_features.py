@@ -57,10 +57,10 @@ import pandas as pd
 
 df = pd.read_csv("data/DS6_historical_failures_2000.csv")
 severity_map = {
-    "Low":1,
-    "Medium":2,
-    "High":3,
-    "Critical":4
+    "Minor":1,
+    "Moderate":2,
+    "Major":3,
+    "Catastrophic":4
 }
 
 df["severity_num"] = df["severity"].map(severity_map)
