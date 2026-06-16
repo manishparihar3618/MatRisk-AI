@@ -181,6 +181,20 @@ Technologies Used
 
 ---
 
+Interactive Dashboard
+
+MatRisk-AI includes a Streamlit dashboard for real-time infrastructure risk assessment.
+
+Features:
+- Infrastructure Condition Prediction
+- Failure Risk Prediction
+- Model Performance Visualization
+- Interactive User Interface
+
+Run locally:
+
+streamlit run src/matrisk_ai_dashboard.py
+
 Future Scope
 
 - Real-time infrastructure monitoring
