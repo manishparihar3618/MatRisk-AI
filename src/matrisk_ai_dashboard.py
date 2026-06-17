@@ -185,6 +185,4 @@ elif page == "About":
     - Streamlit Dashboard
 
     Author: Manish Parihar
-    """)  +-
-
-    
+    """) 
